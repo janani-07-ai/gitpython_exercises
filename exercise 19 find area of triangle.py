@@ -1,0 +1,9 @@
+# write a program to find area of triangle
+
+a= 5
+b= 6
+c= 7
+s = (a+b+c)/2
+print("The semi_perimeter of traingle is: ",s)
+area= ((s*(s-a)*(s-b)*(s-c)))**0.5
+print("The area of triangle is: ",area)
